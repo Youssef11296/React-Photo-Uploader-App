@@ -1,0 +1,38 @@
+:root {
+    --main: pink;
+    --secondary: #0004;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    padding: 4rem 8rem;
+}
+
+.app {
+    text-align: center;
+}
+
+h1 {
+    color: var(--main);
+    text-align: left;
+    font-weight: 800;
+}
+
+h2 {
+    margin: 2rem 0 .4rem;
+    font-size: 2.4rem;
+    font-weight: 600;
+    color: var(--secondary)
+}
+
+p {
+    font-size: 1.2rem;
+    color: var(--secondary)
+}
